@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: cadetblue;
+  padding:20px 40px;
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
+.navbar ul{
+  display:flex;
+  gap:20px;
+  list-style: none;
+}
+.list{
+  padding:20px;
+  display:flex;
+  justify-content: flex-start;
+  gap:20px;
+  flex-wrap: wrap;
+}
+.card{
+  border:2px solid;
+  padding:10px;
+  width:30%;
+
+}
+.card img{
+  width:100%;
+  height:300px;
+}
